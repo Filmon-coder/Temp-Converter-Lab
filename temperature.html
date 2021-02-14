@@ -1,0 +1,53 @@
+<!--
+* our project is to code temperature Scale Convertor 
+* which the heading will be Temperature Scale Convertor 
+* and it have to have a Fahrenheit on the left side 
+* and Value on the upper side 
+* two blocks which one is for the number and the 
+* other one to write Calculate on it
+* below the two blocks we will write Celsius 
+* and at the lower bottom we wwrite 100.
+* the formula is   F(F-9/5)+32 
+
+
+# CSS
+* Add a solid border around all elements 
+*Center header
+*Align Fahrenheit, value input and calculate button in a row. center
+*set Button to blue
+*center celsius 
+
+ # Javascript
+* put the number value inside of input box
+* grab the value to inside of input
+* Add value to the formula for celsius
+* Output the value next to celisius element 
+   
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1 class="temp" id="temp_heading">Temprature Scale Convertor </h1>
+    <p class="para" id="para">Fahrenheit</p>
+    <label>value</label>
+    <input id="inputFahrenheit" type="number">
+    <button onclick="Celsius()" >Calculate</button>
+    <label><strong>Celsius</strong></label>
+    <p><span id="outputCelsius"></span></p>
+    <p id="answer"></p>
+    </div>
+    <script src="Temp-Converter-Lab\Temp.js"></script>
+</body>
+</html>
+
+
+
+
